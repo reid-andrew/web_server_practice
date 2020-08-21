@@ -10,6 +10,8 @@ class RequestParser
       }
     end
 
+    private
+
     def parse_headers(request)
       headers = {}
 

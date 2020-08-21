@@ -12,6 +12,8 @@ class ResponsePreparer
       end
     end
 
+    private
+
     def respond_with(path)
       if File.exists?(path)
         send_ok_response(File.binread(path))
