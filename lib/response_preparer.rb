@@ -1,5 +1,4 @@
 require './lib/response'
-# require './lib/constants'
 
 class ResponsePreparer
   class << self
