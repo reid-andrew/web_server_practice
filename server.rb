@@ -1,5 +1,4 @@
 require 'socket'
-require './lib/response'
 require './lib/request_parser'
 require './lib/response_preparer'
 
